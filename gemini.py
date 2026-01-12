@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd 
 import json
 
-client = genai.Client(api_key="AIzaSyByDCISzyhMtrNSfnI2XF8yq-4g3JfPXEw")
+client = genai.Client(api_key="")
 
 pdf_path = r"C:\Users\varun.pardeshi\Desktop\tool\Panel AI\Images\CR13 Panel Schedules A.pdf"
 # pdf_path2 = r"C:\Users\varun.pardeshi\Desktop\tool\Panel AI\Images\CR13 Panel Schedules A (1).pdf"
@@ -64,4 +64,5 @@ for a in data_array :
     df.loc[len(df)] = new_row
 
 print(df)
+
 df.to_excel("test.xlsx")
