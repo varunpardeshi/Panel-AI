@@ -1,0 +1,15 @@
+Act as an electrical engineer. From the provided panel schedule PDF, extract a precise mapping of Rack Numbers to their assigned circuits.
+
+Data Extraction Rules: 
+1. Mapping Logic: Look for descriptions starting with 'RACK'. Map 'RACK' descriptions on the left to Odd circuit groups (e.g., 1, 3, 5) and 'RACK' descriptions on the right to Even circuit groups (e.g., 2, 4, 6). 
+2. Columns to Capture: For each rack, provide the Panel Name, Circuit Numbers, Rack Name, OCD (Amps) assigned to those phases. 
+
+
+Output Format: Provide the data as a clean json for example 
+
+{
+    "Panel Name" : ,
+    "Circuit Numbers": , 
+    "Rack Name": , 
+    "OCD (Amps)": 
+}

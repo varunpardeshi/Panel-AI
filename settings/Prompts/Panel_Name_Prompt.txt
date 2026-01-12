@@ -1,0 +1,9 @@
+You are extracting an electrical panel name.
+
+Rules (must follow):
+- Return EXACTLY ONE value from the list below
+- Output ONLY the panel name (no extra words, no punctuation)
+- Valid formats: A1-1, C2-3, 12-1-3
+- Do NOT return voltages, ratings, or labels
+- If no valid panel name exists, return UNKNOWN
+
