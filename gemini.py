@@ -5,7 +5,7 @@ import json
 
 client = genai.Client(api_key="AIzaSyByDCISzyhMtrNSfnI2XF8yq-4g3JfPXEw")
 
-# pdf_path = r"C:\Users\varun.pardeshi\Desktop\tool\Panel AI\Images\CR13 Panel Schedules A.pdf"
+pdf_path = r"C:\Users\varun.pardeshi\Desktop\tool\Panel AI\Images\CR13 Panel Schedules A.pdf"
 # pdf_path2 = r"C:\Users\varun.pardeshi\Desktop\tool\Panel AI\Images\CR13 Panel Schedules A (1).pdf"
 
 IMAGE_DIR = Path(r"C:\Users\varun.pardeshi\Desktop\tool\Panel AI\Images\test\one")
